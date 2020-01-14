@@ -1,0 +1,423 @@
+[
+    {
+        "name": "Kanto Region",
+        "chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+        "children": [
+            {
+                "name": "Pallet/Viridian",
+                "children": [
+                    {
+                        "name": "Pallet Town",
+                        "sections": [
+                            {
+                                "name": "Gary's Sister",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "kanto",
+                                "x": 456,
+                                "y": 1122,
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viridian City",
+                        "sections": [
+                            {
+                                "name": "Poké Mart",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Gym - Giovanni",
+                                "access_rules": ["boulder_badge,cascade_badge,thunder_badge,rainbow_badge,marsh_badge,soul_badge,volcano_badge"],
+                                "hosted_item": "earth_badge"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "kanto",
+                                "x": 456,
+                                "y": 872,
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Past Viridian",
+                "access_rules": ["oaks_parcel"],
+                "children": [
+                    {
+                        "name": "Route 2/Pewter/Mt. Moon",
+                        "children": [
+                            {
+                                "name": "Route 2",
+                                "sections": [
+                                    {
+                                        "name": "Prof. Oak's Aide",
+                                        "capture_item": true,
+                                        "access_rules": ["pokedex:6", "{}"],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 456,
+                                        "y": 702,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Pewter City",
+                                "sections": [
+                                    {
+                                        "name": "Museum",
+                                        "access_rules": ["$canUseCut"],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Gym - Brock",
+                                        "hosted_item": "boulder_badge"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 456,
+                                        "y": 540,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Mt. Moon",
+                                "access_rules": ["boulder_badge"],
+                                "sections": [
+                                    {
+                                        "name": "Mt. Moon",
+                                        "hosted_item": "mt_moon"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 870,
+                                        "y": 456,
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Everywhere Else",
+                        "children": [
+                            {
+                                "name": "Celadon City",
+                                "access_rules": ["$canUseCut", "tea", "poke_flute"],
+                                "children": [
+                                    {
+                                        "name": "Celadon City",
+                                        "sections": [
+                                            {
+                                                "name": "Restaurant",
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Mansion",
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Gym - Erika",
+                                                "access_rules": ["$canUseCut"],
+                                                "hosted_item": "rainbow_badge"
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "kanto",
+                                                "x": 1020,
+                                                "y": 676,
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Rocket Hideout",
+                                        "sections": [
+                                            {
+                                                "name": "4th Floor",
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Giovanni",
+                                                "access_rules": ["lift_key"],
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "kanto",
+                                                "x": 1060,
+                                                "y": 740,
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Cerulean City",
+                                "sections": [
+                                    {
+                                        "name": "Bike Shop",
+                                        "capture_item": true,
+                                        "access_rules": ["bike_voucher", "{}"],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Gym - Misty",
+                                        "hosted_item": "cascade_badge"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1290,
+                                        "y": 456,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Cinnabar Island",
+                                "access_rules": ["$canUseSurf"],
+                                "sections": [
+                                    {
+                                        "name": "Mansion",
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Gym - Blaine",
+                                        "hosted_item": "volcano_badge"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 456,
+                                        "y": 1372,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Fuschia City",
+                                "access_rules": ["poke_flute"],
+                                "children": [
+                                    {
+                                        "name": "Fuschia City",
+                                        "sections": [
+                                            {
+                                                "name": "Fisherman",
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Warden",
+                                                "access_rules": ["gold_teeth"],
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Gym - Koga",
+                                                "hosted_item": "soul_badge"
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "kanto",
+                                                "x": 1125,
+                                                "y": 1206,
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Safari Zone",
+                                        "sections": [
+                                            {
+                                                "name": "Area 3",
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Secret House",
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "kanto",
+                                                "x": 1125,
+                                                "y": 1146,
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Indigo Plateau",
+                                "sections": [
+                                    {
+                                        "name": "Pokémon League",
+                                        "access_rules": ["boulder_badge,cascade_badge,thunder_badge,rainbow_badge,marsh_badge,soul_badge,volcano_badge,earth_badge,$canUseSurf,$canUseStrength"],
+                                        "hosted_item": "champion"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 290,
+                                        "y": 454,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Lavender Town",
+                                "access_rules": ["$canUseCut", "tea", "poke_flute"],
+                                "sections": [
+                                    {
+                                        "name": "Pokémon Tower",
+                                        "access_rules": ["silph_scope"],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1624,
+                                        "y": 706,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Route 11",
+                                "sections": [
+                                    {
+                                        "name": "Prof. Oak's Aide",
+                                        "capture_item": true,
+                                        "access_rules": ["pokedex:12", "{}"],
+                                        "item_count": 1
+                                    },
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1490,
+                                        "y": 956,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Route 12",
+                                "access_rules": ["poke_flute"],
+                                "sections": [
+                                    {
+                                        "name": "Fisherman",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1624,
+                                        "y": 956,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Route 16",
+                                "access_rules": ["$canUseCut"],
+                                "sections": [
+                                    {
+                                        "name": "Girl",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 706,
+                                        "y": 706,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Route 25",
+                                "sections": [
+                                    {
+                                        "name": "Bill",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1464,
+                                        "y": 290,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Saffron City",
+                                "access_rules": ["tea"],
+                                "sections": [
+                                    {
+                                        "name": "Silph Co.",
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Gym - Sabrina",
+                                        "hosted_item": "marsh_badge"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1290,
+                                        "y": 706,
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Vermilion City",
+                                "sections": [
+                                    {
+                                        "name": "Pokémon Club",
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Fisherman",
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "S.S. Anne",
+                                        "access_rules": ["ss_ticket"],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Gym - Lt. Surge",
+                                        "access_rules": ["$canUseCut", "$canUseSurf"],
+                                        "hosted_item": "thunder_badge"
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "kanto",
+                                        "x": 1290,
+                                        "y": 956,
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
